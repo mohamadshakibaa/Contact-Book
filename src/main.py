@@ -114,7 +114,6 @@ if __name__ == "__main__":
             name = input("Enter contact name to update: ")
             phone = input("New phone (press Enter to skip): ").strip()
             email = input("New email (press Enter to clear/skip): ").strip()
-            # اگر کاربر فقط Enter زد، پارامترها None می‌شن تا تغییری اعمال نشه
             book.update_contact(
                 name,
                 phone=phone or None,
